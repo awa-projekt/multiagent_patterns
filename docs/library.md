@@ -1,3 +1,5 @@
+English | [Deutsch](de/library.md)
+
 # `agentpatterns`: reusable multi-agent patterns for LangGraph
 
 `src/agentpatterns/` packages every pattern from this study as a factory

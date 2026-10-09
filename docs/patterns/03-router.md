@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/03-router.md)
+
 # 3. Router
 
 > **TL;DR** A single routing step (an LLM with structured output, or rules)

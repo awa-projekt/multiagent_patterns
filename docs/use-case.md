@@ -1,3 +1,5 @@
+English | [Deutsch](de/use-case.md)
+
 # Use case: customer-service inbox automation
 
 **Acme Cloud** is a fictional B2B SaaS company. Its support inbox receives

@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/04-parallelization.md)
+
 # 4. Parallelization (fan-out / fan-in)
 
 > **TL;DR** Several branches run at the same time and their results are merged.

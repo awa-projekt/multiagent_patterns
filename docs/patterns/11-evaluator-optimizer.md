@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/11-evaluator-optimizer.md)
+
 # 11. Evaluator-optimizer (reflection loop)
 
 > **TL;DR** A generator produces a candidate, an evaluator grades it against

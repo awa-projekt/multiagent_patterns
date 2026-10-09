@@ -22,13 +22,13 @@ sich gegen ein echtes Modell austauschen.
 
 | Sie möchten... | Dann lesen Sie |
 |---|---|
-| entscheiden, welches Pattern zu Ihrem Problem passt | [docs/README.md](docs/README.md): Zusammenfassung, Vergleich, Entscheidungshilfe |
-| ein Pattern im Detail verstehen | [docs/patterns/](docs/patterns/): ein ausführlicher Bericht pro Pattern |
-| ein Pattern in Ihrem eigenen Workflow nutzen | [docs/library.md](docs/library.md): die Bibliothek `agentpatterns` |
-| den Anwendungsfall, die Daten und die Messungen sehen | [docs/use-case.md](docs/use-case.md) |
-| die Quellen prüfen | [docs/sources.md](docs/sources.md) |
+| entscheiden, welches Pattern zu Ihrem Problem passt | [docs/de/README.md](docs/de/README.md): Zusammenfassung, Vergleich, Entscheidungshilfe |
+| ein Pattern im Detail verstehen | [docs/de/patterns/](docs/de/patterns/): ein ausführlicher Bericht pro Pattern |
+| ein Pattern in Ihrem eigenen Workflow nutzen | [docs/de/library.md](docs/de/library.md): die Bibliothek `agentpatterns` |
+| den Anwendungsfall, die Daten und die Messungen sehen | [docs/de/use-case.md](docs/de/use-case.md) |
+| die Quellen prüfen | [docs/de/sources.md](docs/de/sources.md) |
 
-Die Dokumentation unter `docs/` ist auf Englisch.
+Die Dokumentation gibt es auf Deutsch unter `docs/de/` und auf Englisch unter `docs/`.
 
 ## Schnellstart
 
@@ -111,7 +111,7 @@ graph = PATTERNS["router"](init_chat_model("anthropic:claude-opus-5"))
 ```
 
 Hinweise zu den Strategien für Structured Output stehen in
-[docs/use-case.md](docs/use-case.md#switching-to-a-real-model). Mit den
+[docs/de/use-case.md](docs/de/use-case.md#auf-ein-echtes-modell-umstellen). Mit den
 optionalen Smoke-Tests prüfen Sie Ihr Modell (ein Lauf macht etwa 40 bis 60
 Modellaufrufe):
 

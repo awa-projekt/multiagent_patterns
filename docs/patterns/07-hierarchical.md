@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/07-hierarchical.md)
+
 # 7. Hierarchical teams (supervisor of supervisors)
 
 > **TL;DR** The supervisor pattern, nested: a top-level agent delegates to team

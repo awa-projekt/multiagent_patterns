@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/08-swarm-handoffs.md)
+
 # 8. Swarm / network of peers (handoffs between agents)
 
 > **TL;DR** Agents are peers. The active agent works and, when another peer is

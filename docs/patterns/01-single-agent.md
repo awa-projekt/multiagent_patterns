@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/01-single-agent.md)
+
 # 1. Single agent (the baseline)
 
 > **TL;DR** One LLM in a tool-calling loop owns the whole task. It is the

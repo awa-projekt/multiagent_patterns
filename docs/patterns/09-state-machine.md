@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/09-state-machine.md)
+
 # 9. State machine: handoffs within a single agent
 
 > **TL;DR** One agent moves through named steps. Each step has its own system

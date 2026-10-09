@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/06-supervisor.md)
+
 # 6. Supervisor with subagents as tools
 
 > **TL;DR** A main agent (the supervisor) calls specialized subagents **as

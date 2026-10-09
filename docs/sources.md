@@ -1,3 +1,5 @@
+English | [Deutsch](de/sources.md)
+
 # Research sources
 
 We read the primary sources in September 2026. The LangChain and LangGraph

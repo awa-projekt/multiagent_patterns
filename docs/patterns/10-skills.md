@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/10-skills.md)
+
 # 10. Skills (progressive disclosure)
 
 > **TL;DR** One agent stays in control. Its prompt lists only skill *names and

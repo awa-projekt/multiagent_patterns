@@ -1,3 +1,5 @@
+English | [Deutsch](de/README.md)
+
 # Multi-agent patterns with LangGraph: summary
 
 This folder documents what we built and what we learned. We researched the

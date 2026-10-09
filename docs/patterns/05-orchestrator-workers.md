@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/05-orchestrator-workers.md)
+
 # 5. Orchestrator-workers (and plan-and-execute)
 
 > **TL;DR** An orchestrator LLM decomposes the job into tasks *at runtime*

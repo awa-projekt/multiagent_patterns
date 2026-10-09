@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/02-sequential-pipeline.md)
+
 # 2. Sequential pipeline (prompt chaining)
 
 > **TL;DR** A fixed sequence of steps: single LLM calls with structured output,

@@ -1,3 +1,5 @@
+English | [Deutsch](../de/patterns/12-other-patterns.md)
+
 # 12. Other patterns and variants
 
 These patterns show up in the literature and in other frameworks. We did not
