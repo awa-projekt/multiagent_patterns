@@ -1,0 +1,65 @@
+[project]
+name = "multiagent-patterns"
+version = "0.1.0"
+description = "Multi-agent patterns for LangGraph/LangChain v1: research, reference implementations on an e-mail use case, and a reusable pattern library."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "awa-projekt", email = "info@ancud.de" }]
+keywords = ["langgraph", "langchain", "multi-agent", "agents", "llm"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "langchain>=1.4.2",
+    "langchain-core>=1.6.5",
+    "langgraph>=1.2.12",
+]
+
+[project.urls]
+Repository = "https://github.com/awa-projekt/multiagent_patterns"
+Documentation = "https://github.com/awa-projekt/multiagent_patterns/tree/main/docs"
+
+[project.optional-dependencies]
+# Only needed to swap the mock LLM for a real Claude model (>=1.7 knows the current models' profiles).
+anthropic = ["langchain-anthropic>=1.7"]
+# MCP tools via `langchain.mcp` (beta, built on FastMCP).
+mcp = ["langchain[mcp]>=1.4.2"]
+
+[project.scripts]
+email-demo = "email_assistant.run:main"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agentpatterns", "src/email_assistant"]
+
+[dependency-groups]
+dev = [
+    "langchain[mcp]>=1.4.2",
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["real_model: calls a real LLM API; opt-in via AGENTPATTERNS_TEST_MODEL (see tests/test_real_model.py)"]
+filterwarnings = [
+    # `langchain.mcp` says on import that it is beta; docs/library.md says so too.
+    "ignore:`langchain.mcp` is in beta:langchain_core._api.LangChainBetaWarning",
+]
+
+[tool.ruff]
+line-length = 120
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]  # line length is handled by `ruff format`
+
+[tool.ruff.lint.isort]
+known-first-party = ["agentpatterns", "email_assistant", "tests"]
